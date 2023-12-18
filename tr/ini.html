@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruan</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main{
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .image-div{
+            width: 100%;
+        }
+        .image{
+            width: 100%;
+            position: fixed;
+        }
+        .cont{
+            width: 100%;
+            height: 100vh;
+            background-color: transparent;
+            position: relative;
+            transform: translate(0, 0px);
+        }
+        .ruan_img{
+            width: 50%;
+            border-radius: 30px;
+            box-shadow: 0px 0px 20px 5px whitesmoke;
+            position: relative;
+            left: 25%;
+            top: 15%;
+        }
+        .btn_acess{
+            width: 200px;
+            height: 70px;
+            background-color: whitesmoke;
+            position: relative;
+            top: 30%;
+            right: 7%;
+            border-radius: 20px;
+            border-style: none;
+            background-color: rgb(245, 236, 236, 0.6);
+            font-size: 20px;
+        }
+        .btn_acess:hover{
+            background-color: transparent;
+            border-style: solid;
+            border-color: whitesmoke;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="image-div">
+            <img class="image" src="office-865091_1920.jpg" alt="">
+        </div>
+        <div class="cont">
+            <img class="ruan_img" src="WIN_20231215_19_00_01_Pro.jpg" alt="">
+            <h1 style="position:absolute;background-color: rgb(245, 236, 236,0.25); top: 7%;left: 33%;color: whitesmoke;box-shadow: 0 0 22px 5px rgb(245, 236, 236,0.4);">Minha Caminhada como Aluno DEV</h1>
+            <button class="btn_acess" id="btn" onclick="acess()">
+                Começar
+            </button>
+        </div>
+    </div>
+    <script src="vdl_btn_acess.js"></script>
+</body>
+</html>
