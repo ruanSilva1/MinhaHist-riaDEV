@@ -18,7 +18,7 @@
         }
         .conteudo{
             width: 20%;
-            height: 200vh;
+            height: 320;
             background-color: rgb(35, 32, 32, 0.9);
             z-index: 5;
             box-shadow: 0px 0px 10px 5px black;
@@ -31,7 +31,7 @@
         }
         .text{
             width: 80%;
-            height: 200vh;
+            height: 320vh;
             background-color: gray;
             z-index: 0;
         }
@@ -69,6 +69,23 @@
             top: 20%;
             text-align: center; 
         }
+        .modulo_3{
+            position: relative;
+            top: 30%;
+            text-align: center; 
+        }
+        .conclusao{
+            position: relative;
+            top: 40%;
+            text-align: center;
+        }
+        .btn_back{
+            position: relative;
+            top: 77%;
+            left: 40%;
+            background-color: transparent;
+            border-color: transparent;
+        }
     </style>
 </head>
 <body>
@@ -80,7 +97,11 @@
                 <li>Primeiro Módulo</li>
                 <li>Segundo Módulo</li>
                 <li>Terceiro Módulo</li>
+                <li>Conclusão</li>
             </ol>
+                <button class="btn_back">
+                    <img id="img_ini" src="sair-alternativo.png" onclick="voltar_inicio()">
+                </button>
         </div>
         <div class="text">
             <h1 class="txt">Como eu conheci a programação</h1>
@@ -95,12 +116,25 @@
                 Aqui é o começo do primeiro módulo do meu curso, e eu não vou mentir, batia uma ansiedade porque eu não sabia como era, e logo de cara eu nem sabia ir para a minha sala, mas bom, pelo menos consegui chegar lá. Quando eu entrei e escolhi uma máquina, logo depois chegou um cara gigante parecendo uma muralha e sentou do meu lado. Eu já estava com medo e ainda o cara com cara de mal, ai já estava quase morrendo ali mesmo. E tinha o rapaz com cara de nerd, que as pessoas da sala não gostava dele. Nossa primeira amizade durante o curso foi com ele, nós tinhamos até planejado fazer o TCC juntos <strong>(SPOYLER: Ainda bem que não fizemos isso)</strong>, a gente curtia o geito dele e logo depois fizemos outra amizade, mas dessa vez com um rapaz que tinha um bigode legal. No começo foi mil maravilhas, mais depois nós começamos a ser tratados de mal forma, e então, meu irmão tomou a iniciativa e parou a amizade com os dois e depois eu fiz o mesmo. Nós dois tinhamos trocado de lugar depois daqueles acontecimentos. Se eu pudesse voltar no tempo, eu nem teria feito amizade com esses caras, mas vamos continuar. Eu era um garoto que no começo teve muita dificuldade, então foi uma tortura imensa, mas depois fui aprendendo umas coisas.
             </p>
             <br>
-            <h1 class="modulo_2">Módulo 2</h1>
+            <h1 class="modulo_2">Módulo 2 e a asiedade extrema</h1>
             <br>
             <p style="position: relative; top: 25%;">
-                Apartir deste módulo, tudo foi fincando mais intenso ainda, ainda mais com a troca de professores, e nesse módulo mais uma vez eu sofri, mais foi divertido, para mim, foi o melhor módulo. Bom, nós tivemos uma tarefa, onde nós deveriamos desenvolver um sistema já implementando o <strong>CRUD</strong>, pra quem não sabe o que é, eu vou estar colocando aqui (C = Create, R = Read, U = Update e D = Delete) ou em portugues (Criar, Ler, Editar e Excluir)
+                Apartir deste módulo, tudo foi fincando mais intenso ainda, ainda mais com a troca de professores, e nesse módulo mais uma vez eu sofri, mais foi divertido, para mim, foi o melhor módulo. Bom, nós tivemos uma tarefa, onde nós deveriamos desenvolver um sistema já implementando o <strong>CRUD</strong>, pra quem não sabe o que é, eu vou estar colocando aqui (C = Create, R = Read, U = Update e D = Delete) ou em portugues (Criar, Ler, Editar e Excluir),  e no trabalho mensionado, era sorteado as equipes, e eu cai com um cara que na época não conhecia, então para mim foi algo que me deixou com pé atrás. Mais mesmo assim decidimos prosseguir, mais não durou muito, porque eu tava tendo uns problemas pessoais e eu decidi sair da equipe e começar um novo projeto, nesse novo projeto, eu tinha que entregar tudo em tempo aproximado de uma semana para eu conseguir me recuperar do prejuízo, e foi a semana em que eu piorei de estado, tendo crizes imensas de ansiedade ao ponto de eu ter que embora da escola quase todos os dias daquela semana, e muitos falaram que eu não ia conseguir, até mesmo meu irmão, falando que eu estava doido de abandonar um projeto na véspera da entrega, e bom, no final de tudo, eu consegui desenvolver o meu sistema proposto em uma semana, tanto na parte da documentação, quanto no corpo do projeto, nesse período eu tava um caos, com uma ansiedade que não tinha nem explicação, mas mesmo assim continuei. E quando chegou o dia dos testes, o professor foi usar o sistema de toda a sala, e todos deram problemas no CRUD, tinha muitas coisas faltando. Quando o professor usou o meu, até hoje eu me lembro de como eu fiquei feliz e fiquei rindo todo bobo, o professor ficou em pé na frente da sala e falou: "O único projeto 100% concluido é o de Ruan". Na hora alguns não acreditaram, outros ficaram tipo: "O cara já acabou" e ficou uma loucura, fui parabenizado também, e até hoje eu lembro o quanto foi dificil assumir um projeto sozinho, mais no final, depois de tanta insistencia, dor, dedicação e propósito, eu finalmente consegui, era uma vitória que mudou minha forma de enxergar as coisas.
+            </p>
+            <br>
+            <h1 class="modulo_3">Módulo 3 Sofrendo para desenvolver</h1>
+            <br>
+            <p style="position: relative; top: 35%;">
+                Pra finalizar, eu vou estar contando sobre o meu ultimo módulo, nele foi o mais insano e o mais divertido entre todos os módulos, me enturmei com mais pessoas da sala e fiz uns projetos que foi muito legal (apesar que tivemos que ouvir um pouco da bancada). Mais não deixou de ser divertido, e como no ultimo módulo, nós devemos desenvolver um sistema com base em todos os conteúdos já vistos anteriormente. E como eu estava com um projeto desde o primeiro módulo, eu usei para desenvolver esta minha ideia, e bom, foi uma etapa complicada, eu estive 100% envolvido com Front-End e ainda assumi o Banco de Dados e o Back-End, ajudei também no desenvolvimento dos slides para a apresentação de TCC e no fim, apresentamos, é claro que tivemos umas falhas, mais pelo menos eu consegui por uma <strong>API para CEP</strong>. Mais um dos moles que eu cometi foi falar que existe API para CPF, os professores ficaram me zoando depois da apresentação, mais foi divertido, e no ultimo dia de curso, juntamos com outra turma para comermos pizza.
+            </p>
+            <br>
+            <h1 class="conclusao">Conclusão</h1>
+            <br>
+            <p style="position: relative; top: 45%;">
+                Esta foi a minha jornada, é claro que eu não consegui falar tudo, mais já é um começo. Sobre os dois caras que eu fiz amizade no primeiro módulo, bom, estão de final (porque eles são folgados e jogam enquanto o professor esta explicando conteúdo, e depois ficam pedindo resposta), já as outras amizades que fiz durante o percurso, me ajudaram a me tornar um programador.
             </p>
         </div>
     </div>
+    <script src="vdl_btn_acess.js"></script>
 </body>
 </html>
