@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Multa</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Helvetica;
+        }
+        .contaudo{
+            width: 100%;
+            box-sizing: border-box;
+            height: 100vh;
+            background-image: url("pexels-king-ho-18464638.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .formulario{
+            width: 50%;
+            height: 70vh;
+            background-color: rgb(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: solid 2px black;
+            border-color: gray;
+            border-radius: 20px;
+            position: relative;
+            left: 25%;
+            top: 15%;
+            box-shadow: 0 0 10px 5px gray;
+        }
+        h1{
+            text-align: center;
+            position: relative;
+            top: 10%;
+            color: whitesmoke;
+            filter: drop-shadow(0px 0px 10px gray);
+        }
+        .inputs{
+            display: flex;
+            width: 77%;
+            position: relative;
+            left: 10%;
+            top: 100px;
+            border-radius: 7px;
+            border-color: whitesmoke;
+            border-style: solid;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .btn_cad{
+            display: flex;
+            width: 40%;
+            position: relative;
+            left: 30%;
+            top: 130px;
+            border-radius: 7px;
+            border-color: whitesmoke;
+            border-style: solid;
+            padding: 10px 100px;
+            margin-top: 20px;
+            font-size: 19px;
+        }
+        .btn_cad:hover{
+            background-color: transparent;
+            border-color: gray;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="contaudo" id="conteudo">
+            
+            <div class="formulario" id="formulario"><h1>Cadastrar Multa</h1>
+                <form action="multa.php" method="post">
+                    <input class="inputs" type="text" name="nome_via" id="nome" placeholder="Nome da via">
+                    <input class="inputs" type="tel" name="v_permitida" id="v_permitida" placeholder="Velocidade Permitida pela via">
+                    <input class="inputs" type="tel" name="v_ultrapassada" id="v_ultrapassada" placeholder="Valor ultrapassada">
+                    <input class="inputs" type="datetime-local" name="dia" id="dia">
+                    <input class="btn_cad" type="submit" value="Cadastrar" id="btn_cadastrar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="master.js"></script>
+</body>
+</html>
